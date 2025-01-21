@@ -15,7 +15,7 @@ We provide a number of .ipynb files for reader friendliness and ease for access 
 
 [runtimex.py] : This file is required to run some of the ipynb files, and contains several methods that can be utilized for multiprocessing.
 
-[Bulk Separation.ipynb] : If the hydration result is a huge jsonl file per day, we use this to separate the post corpus into 100 posts per file, putting them in their according date. You could also Bring Your Own Data, but we assume the tweets are in /<keyword>/<date>/<topic_num>/filename in most of our implementation.
+[Bulk Separation.ipynb] : If the hydration result is a huge jsonl file per day, we use this to separate the post corpus into 100 posts per file, putting them in their according date. You could also Bring Your Own Data, but we assume the tweets are in /keyword/date/topic_num/filename in most of our implementation.
 
 [DTM-processing.ipynb] : Once done, Dynamic Topic Modeling implemented by Blei & Lafferty (2006) Tomotopy (Lee 2023) could be utilized to generate topics for the chosen keywords and categorize each post into topics.
 
