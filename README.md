@@ -25,7 +25,7 @@ We provide a number of .ipynb files for reader friendliness and ease for access 
 
 [Labeling with Poynter Dataset.ipynb] : We perform the labeling process mentioned in our paper.
 
-[ITP-Main.ipynb] : With topic features, their top keywords (used for hyperedge building), and their label available, we can use these to test the effectiveness of our framework. We left the latest run of our best implementation in for result verification.
+[ITP-Main.ipynb] : With topic features, their top keywords (used for hyperedge building), and their label available, we can use these to test the effectiveness of our framework. We left the latest run of our best implementation in for result verification. Our experiment is built on the basis of DeepHypergraph (https://github.com/iMoonLab/DeepHypergraph) repository, we thank them for creating such a wonderful project.
 
 
 ## References
