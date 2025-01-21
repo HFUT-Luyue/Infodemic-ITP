@@ -17,7 +17,7 @@ We provide a number of .ipynb files for reader friendliness and ease for access 
 
 [Bulk Separation.ipynb] : If the hydration result is a huge jsonl file per day, we use this to separate the post corpus into 100 posts per file, putting them in their according date.
 
-[DTM-processing.ipynb] : Once done, Dynamic Topic Modeling implemented by Tomotopy (Lee 2023) could be utilized to generate topics for the chosen keywords and categorize each post into topics.
+[DTM-processing.ipynb] : Once done, Dynamic Topic Modeling implemented by Blei & Lafferty (2006) Tomotopy (Lee 2023) could be utilized to generate topics for the chosen keywords and categorize each post into topics.
 
 [High-level Feature Extract.ipynb] : Once the topics and posts are in position, we extract high-level features such as user generated profile subjectivity, ARI, etc., from posts in a topic.
 
@@ -29,6 +29,10 @@ We provide a number of .ipynb files for reader friendliness and ease for access 
 
 
 ## References
+Blei DM, Lafferty JD (2006) Dynamic topic models. Proceedings of the 23rd international conference on Machine learning. ICML ’06. (Association for Computing Machinery, New York, NY, USA), 113–120.
+
 Lamsal R (2020) Coronavirus (COVID-19) Tweets Dataset.
+
 Nia ZM, Bragazzi NL, Wu J, Kong JD (2023) A Twitter dataset for Monkeypox, May 2022. Data in Brief 48:109118.
+
 Lee M (2023) tomotopy.
