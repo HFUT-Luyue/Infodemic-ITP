@@ -27,6 +27,13 @@ We provide a number of .ipynb files for reader friendliness and ease for access 
 
 [ITP-Main.ipynb] : With topic features, their top keywords (used for hyperedge building), and their label available, we can use these to test the effectiveness of our framework. We left the latest run of our best implementation in for result verification. Our experiment is built on the basis of DeepHypergraph (https://github.com/iMoonLab/DeepHypergraph) repository, we thank them for creating such a wonderful project.
 
+### Requirements
+
+We tested our code in the environment of python 3.9 & 3.12. Numerous package requirements exist, which include but not limited to:
+
+dhg, pandas, torch, typing, numpy, langdetect, importlib, bert, transformers, tomotopy, nltk, preprocessor, fasttext.
+
+The required packages are imported into ipynb.
 
 ## References
 Blei DM, Lafferty JD (2006) Dynamic topic models. Proceedings of the 23rd international conference on Machine learning. ICML ’06. (Association for Computing Machinery, New York, NY, USA), 113–120.
